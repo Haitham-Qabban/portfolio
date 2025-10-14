@@ -1,0 +1,31 @@
+# Root-level ignore for repository
+# Prevent committing dependencies and build outputs
+/node_modules/
+/portfolio/node_modules/
+/dist/
+/portfolio/dist/
+
+# Angular cache
+/.angular/
+/portfolio/.angular/
+
+# Logs
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
